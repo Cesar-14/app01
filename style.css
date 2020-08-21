@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&display=swap');
+
+body{
+    background-color: #426d4b;
+    text-align: center;
+    background-image: url("imagenes/fondo-mascotas.jpg");
+    
+}
+.fondo {
+    background: rgba(19, 37, 35, 0.828);
+    border: solid black 5px;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    background: yellowgreen;
+    color: black;
+}
+
+h2 {
+    padding: 0px;
+    margin: 10px;
+    background: rgba(209, 5, 5, 0.746);
+}
+#pet-list :hover{
+    border: solid black 5px;
+    background: rgba(42, 124, 138, 0.856);
+    font-size: 30px;
+    transition: background-color 0.5s ease;
+}
+
+#pet-list a {
+    color: white;
+    margin: 20px;
+}
+#pet-list span {
+    background: rgb(96, 126, 31);
+}
+#pet-list li {
+    padding: 20px;
+}
+
+a, ul{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    
+}
+ul, span {
+    font-size: 20px;
+    padding: 5px;
+}
+.Instruccion p {
+    font-size: 25px;
+}
+.sub-category{
+    color: rgba(104, 104, 10, 0.835);
+}
+
+div{
+    color: #c5c6c7;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14;
+    ;
+}
+
+#div-1 {
+    padding: 0% 38%;
+}
+
+#div-2 p {
+    padding: 1% 20%;
+    background: rgb(75, 58, 42);
+}
+#div-3 {
+    padding: 0% 45%;
+}
+
+@media only screen and (max-width: 600px){
+    body{
+        background-color: rgb(197, 13, 13);
+    }
+}
